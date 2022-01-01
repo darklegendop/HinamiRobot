@@ -158,7 +158,7 @@ keyboard = InlineKeyboardMarkup(
 @app.on_message(filters.command("start"))
 async def start(_, message):
     if message.chat.type != "private":
-        return await message.reply_photo(photo="https://telegra.ph/file/41d09d781ea7e115c61ba.jpg",
+        return await message.reply_photo(photo="https://cdn.awwni.me/2gj9h.jpg",
             caption="Pm Me For More Details.", reply_markup=keyboard
         )
     if len(message.text.split()) > 1:
