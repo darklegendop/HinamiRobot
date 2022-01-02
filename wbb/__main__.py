@@ -113,8 +113,8 @@ home_keyboard_pm = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="System Stats 🖥",
-                callback_data="stats_callback",
+                text="Support",
+                url"https://t.me/HINAMIAPPEAL",
             ),
         ],
         [
